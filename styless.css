@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Romanesco&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', Regular;
+}
+
+.contenedor {
+    background-color: #A3A656;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    font-size: 16px;
+    padding-left: 70px;
+}
+
+.nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.BarraPrincipal {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.BarraPrincipal>div {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.BarraPrincipal>div:last-child {
+    margin-right: 0;
+
+}
+
+.BarraPrincipal img {
+    margin-right: 10px;
+}
+
+.BarraPrincipal h6 {
+    margin: 0;
+    font-weight: normal;
+
+
+}
+
+.idioma h6 {
+    margin-right: 10px;
+    /* Espacio entre "ES" y la imagen de la bandera */
+}
+
+main>div {
+    background-image: url('images/main.png');
+    background-size: cover;
+    /* Cubre el fondo */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    /* Establece la altura en 500px */
+    width: auto;
+    padding-left: 10%;
+    /* Añade espacio alrededor del contenido */
+
+}
+
+h1 {
+    margin-bottom: auto;
+    /* Centra el h2 verticalmente */
+    font-family: 'Inter', Regular;
+    font-size: 96px;
+    font-weight: normal;
+    padding-top: 7%;
+    margin: 0px;
+
+}
+
+.h2 {
+    margin-top: auto;
+    /* Centra el h2 verticalmente */
+    margin-bottom: auto;
+    /* Centra el h2 verticalmente */
+    font-weight: normal;
+    font-family: 'Inter', SemiBold;
+    font-size: 32px;
+}
+h3{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #F2F6F6;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main>div {
+    margin-right: 40px;
+    /* Espacio entre "ES" y la imagen de la bandera */
+}
+
+.caja-texto {
+    padding: 10px;
+    /* Padding interno */
+    font-size: 16px;
+    /* Tamaño de fuente */
+    border-radius: 8px;
+    /* Borde redondeado */
+    border: 1px solid #fff;
+    /* Borde sólido con color gris claro */
+}
+
+.texto {
+    font-family: 'Inter', Regular;
+    margin-right: 10px;
+    /* Espacio entre "ES" y la imagen de la bandera */
+    font-size: 16px;
+
+}
+
+.sev {
+    display: flex;
+    justify-content: center;
+    gap: 134px;
+    padding-top: 100px;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
+.card-pies {
+    width: 350px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.card-pies h5 {
+    font-weight: normal;
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #a3a656;
+    border-radius: 15px 15px 0 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-family: 'Inter';
+}
+
+.imagen-pies {
+    width: 350px;
+}
+
+#descripcions {
+    margin-top: 15px;
+    text-align: left;
+}
+
+#precio {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.card-pies .reservarpies {
+    display: flex;
+    justify-content: left;
+    border-radius: 35px;
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: #a3a656;
+    color: #ffffff;
+    border: none;
+
+}
+
+.card-pies .reservarpies:hover {
+    background-color: #384001;
+}
+
+.precioyreservar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 5px;
+}
+
+.precioyreservar div {
+    margin: 100px;
+}
+
+.cardcara {
+    width: 350px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.cardcara h5 {
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #a3a656;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+}
+
+.imagen-cara {
+    width: 350px;
+}
+
+
+.cardcara .reservarcara {
+    display: flex;
+    justify-content: left;
+    border-radius: 35px;
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: #a3a656;
+    color: #ffffff;
+    border: none;
+}
+
+.cardcara .reservarcara:hover {
+    background-color: #384001;
+}
+
+.cardespalda {
+    width: 350px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.cardespalda h5 {
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #a3a656;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+}
+
+.imagen-espalda {
+    width: 350px;
+}
+
+.cardespalda .reservarespalda {
+    display: flex;
+    justify-content: left;
+    border-radius: 35px;
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: #a3a656;
+    color: #ffffff;
+    border: none;
+}
+
+.cardespalda .reservarespalda:hover {
+    background-color: #384001;
+}
+
+
+
+.Sev {
+    display: flex;
+    justify-content: center;
+    gap: 134px;
+    padding-bottom: 80px;
+
+}
+
+
+.membrecias {
+    height: 770px;
+    background-color: #F2F6F6;
+    padding-bottom: 80px;
+
+
+}
+
+.contenedormembrecias {
+    display: flex;
+    justify-content: center;
+    gap: 134px;
+    padding-top: 100px;
+}
+
+.membresia-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hastesocio {
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.gold {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.premium {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.plate {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.circulo {
+    border: 11px solid #384001;
+    width: 233px;
+    height: 233px;
+    border-radius: 50%;
+    aspect-ratio: 233px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonvercondiciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: #a3a656;
+    color: #ffffff;
+    border: none;
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.botonvercondiciones:hover {
+    background-color: #384001;
+}
+
+.piepagina {
+    height: 97px;
+    background-color: #384001;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.politicas {
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 70px;
+    gap: 80px;
+    color: #a3a656;
+
+}
+
+.MenuPoliticas ul li:hover {
+    color: #FFFF00;
+}
+
+.redessociales {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #a3a656;
+    gap: 45px;
+    margin-right: 100px;
+}
+
+.nav ul li a:hover {
+    color: yellow;
+    /* Color amarillo cuando el ratón esté encima */
+}
